@@ -1,0 +1,17 @@
+.section_features{
+    background-image: linear-gradient(to right bottom,  rgba($color-primary-light, 0.8),
+    rgba($color-primary-dark, 0.8)),url(../img/nat-4.jpg);
+    background-size: cover;
+    height:85vh;
+    transform: skewY(-5deg);
+    margin-top:-10rem; 
+      
+    &__text{
+        transform: skewY(5deg);
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        padding:15rem 5rem ;
+
+    }
+}

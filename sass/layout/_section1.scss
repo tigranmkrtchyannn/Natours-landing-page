@@ -1,0 +1,21 @@
+.section1{
+    background-color: #f7f7f7;
+    margin-top:-20vh;
+    padding:25rem;
+    height:125vh;  
+ }
+.heading-secondary{
+    background-image:linear-gradient(to right, #7ed56f, #28b485);
+    background-clip:text;
+   
+
+    &:hover{
+        transform: skew(2deg,3deg) scale(1.1);
+        text-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+      
+    }
+
+}
+
+
+
