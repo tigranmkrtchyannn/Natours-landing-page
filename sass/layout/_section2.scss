@@ -27,8 +27,12 @@
         padding:8rem;
         flex-direction: row;
         height: auto;
+       margin-top:-5rem;
+    }
+    @include respond(tab-land){
         margin-top:-5rem;
     }
-    
-
+     @include respond(phone){
+        margin-top:-15rem
+     }
 }
