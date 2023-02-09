@@ -5,6 +5,7 @@
     height:85vh;
     transform: skewY(-5deg);
     margin-top:-10rem; 
+   
       
     &__text{
         transform: skewY(5deg);
@@ -12,6 +13,22 @@
         display: flex;
         justify-content: space-around;
         padding:15rem 5rem ;
+        @include respond (tab-port){
+            flex-direction: column;
+            width:100%;
+            padding:5rem;
+            text-align: center;
+        }
+        
 
     }
+
+    @include respond (tab-port){
+        padding:8rem;
+        flex-direction: row;
+        height: auto;
+        margin-top:-5rem;
+    }
+    
+
 }
